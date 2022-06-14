@@ -13,6 +13,10 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  userModel = new User()
+  userModel = new User("","")
+
+  OnSubmit(){
+    console.log(this.userModel)
+  }
 
 }
